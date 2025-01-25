@@ -13,7 +13,7 @@ func main(){
 	if err != nil {
 		panic(err)
 	}
-	fmt.Printf("Hello %s !! Welcome to Monkeeeee Programing Language\n",user.Username)
+	fmt.Printf("Hello %s !! Welcome to Monkeeee Programing Language\n",user.Username)
 	fmt.Printf("Type in commands\n")
 	repl.Start(os.Stdin,os.Stdout)
 }
